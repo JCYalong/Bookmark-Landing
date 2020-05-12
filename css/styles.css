@@ -102,8 +102,35 @@ p {
 }
 
 /* MAIN SECTION  */
+main {
+  position: relative;
+}
 
+.pattern_right,
+.pattern_left {
+  position: absolute;
+  background: #5368DF;
+  height: 300px;
+  width:500px;
+}
+
+.pattern_right {
+  border-radius: 300px 0 0 300px;
+  z-index: -1;
+  top:35%;
+  right:0;
+}
+
+.pattern_left {
+  border-radius: 0 300px 300px 0;
+  z-index: -1;
+  top:200px;
+  left:0;
+}
 /* FEATURES SECTION */
+#features_section {
+  position: relative;
+}
 .btn_features_container {
   width:720px;
   padding: 0;
